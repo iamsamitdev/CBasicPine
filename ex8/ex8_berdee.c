@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <conio.h>
+#include <ctype.h>
 
 int main()
 {
@@ -50,10 +52,12 @@ int main()
     case 64: 
     case 65:
         printf("Good luck\n");
+        getch();
         break;
     case 69:
     case 79:
         printf("You will be lucky\n");
+        getch();
         break;
     case 10: 
     case 13: 
@@ -77,6 +81,7 @@ int main()
     case 60:
     case 61:
         printf("OK Nice\n");
+        getch();
         break;
     case 62:
     case 66:
@@ -84,6 +89,7 @@ int main()
     case 74:
     case 75:
         printf("Bad but ok if your try\n");
+        getch();
         break;
     case 11:
     case 12:
@@ -107,9 +113,11 @@ int main()
     case 78:
     case 80:
         printf("Very Bad luck change your phone number please\n");
+        getch();
         break;
     default:
         printf("Invalid number\n");
+        getch();
         break;
     }
     
